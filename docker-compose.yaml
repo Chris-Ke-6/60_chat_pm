@@ -13,5 +13,6 @@ services:
       - 9000:3000
     environment:
       - REDIS_HOST=redis
+      - REDIS_HOST=6379      
     depends_on:
       - redis
