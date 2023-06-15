@@ -10,7 +10,7 @@ services:
   pvs-chat:
     image: dokerstuff/pvs-chat
     ports:
-      - 9000:3000
+      - 9900:3000
     environment:
       - REDIS_HOST=redis
       - REDIS_HOST=6379      
